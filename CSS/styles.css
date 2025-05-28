@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.body-color{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.head-color{
+    background-color:  rgb(51, 131, 197);
+    border: 0.2vw solid rgb(0, 0, 0);
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.header-color{
+    background-color: rgb(211, 184, 63);
+    border: 0.2vw solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1vw;
+}
+
+.font{
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 1vw;
+}
+
+.section-color{
+    border: 0.2vw solid rgb(0, 0, 0);
+    background-color: #000000;
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+}
+
+.main-color{
+    background-color:  rgb(51, 131, 197);
+    border: 0.1vw solid rgb(0, 0, 0);
+}
+
+.footer2-color{
+    background-color: rgb(185, 72, 72);
+    border: 0.2vw solid rgb(0, 0, 0);
+    height: 10%;
+}
+
+
+.footer-color{
+    background-color: rgb(185, 72, 72);
+    border: 0.3vw solid rgb(0, 0, 0);
+    height: 10%;
+    text-align: center;
+}
+
+.a-color{
+    font-size:larger;
+    color: black;
+    text-decoration: none;
+    padding: 2vw;
+
+}
+
+.cards_presentacion{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    gap: 3vw;
+}
+
+.text-center{
+    text-align: center;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+.text-none{
+    color: black;
+    text-decoration: none;
+}
+
+.cortado{
+    text-decoration: line-through;
+    margin-left: 0.5vw;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+.tamaño-flex{
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    gap: 3vw;
+}
+
+.img-card {
+    width: 100%;
+    max-width: 300px; /* o el valor que prefieras */
+    height: auto;
+    display: block;
+    object-fit: cover; /* o 'contain' si prefieres ver toda la imagen */
+}
+
+.img-margin:hover{
+    margin: 20px;
+    background-color: #1c375e;
+    opacity: 0.9;
+    transform: scale(1.025);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    transition: transform 1.7s, box-shadow 1.7s;
+    transform-origin: center;
+    overflow: visible;
+}
+
+.title-color{
+    color: white;
+    text-align: center;
+}
+
+.icon-padding{
+    padding: 0.5vw;
+    justify-content: center;
+}
+
+.form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1vw ;
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+
+
+label{
+    color:black;
+    font-size: large ;
+}
+
+.box{
+    background-color:white;
+}
+
+li {
+    font-size: 1vw;
+    margin: 3vw;
+    display: inline;
+  }
+
