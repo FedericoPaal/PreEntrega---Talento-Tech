@@ -251,24 +251,32 @@
 
       <!-- Formulario -->
       <div class="footer2-color">
-        <h1 >Registrate aquí:</h1  >
-        <form class="form-center" action="#">
-          <label for="nombre">Nombre: </label>
-          <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
-          <br>
-          <label for="email">Email: </label>
-          <input type="email" name="email" id="email" placeholder="Escribe tu email">
-          <br>
-          <label for="password">Contraseña: </label>
-          <input type="password" name="password" id="password" placeholder="Escribe tu contrasena">
-          <br>
-          <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
-          <br>
-          <button type="submit"> Enviar</button>
-        </form>
-      </div>
+        <section>
+
+          <h1 class="font" >Registrate aquí:</h1  >
+          <form class="form-center" action="#">
+            <input type="text" class="form-input" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+            <br>
+            <input type="text" class="form-input" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+            <br>
+            <input type="number" class="form-input" name="edad" id="edad" placeholder="Escribe tu edad">
+            <br>
+            <input type="email" class="form-input" name="email" id="email" placeholder="Escribe tu email">
+            <br>
+            <input type="password" class="form-input" name="password" id="password" placeholder="Escribe tu contrasena">
+            <br>
+            <button type="submit" class="btn-enviar" id="enviar"> Enviar</button>
+          </form>
+        </div>
+
+        <div id="mensaje" class="mensaje">
+
+        </div>
+
+      </section>
 
     </main>
+    <script src="./js/formulario.js"></script>
 
     <!-- Imagenes Editoriales -->
     <div class="flex">

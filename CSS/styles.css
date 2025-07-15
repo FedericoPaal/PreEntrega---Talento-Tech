@@ -46,6 +46,7 @@
     background-color: rgb(185, 72, 72);
     border: 0.2vw solid rgb(0, 0, 0);
     height: 10%;
+    padding-bottom: 15px;
 }
 
 
@@ -131,11 +132,16 @@
 }
 
 .form-center {
+    border: 5px solid #000;
+    border-radius: 10px;
+    background-color:  rgb(51, 131, 197);
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    margin: 1vw ;
+    align-items: center;
+    margin: 0 auto ;
     width: 100%;
+    font-size: large;
 }
 
 form {
@@ -159,4 +165,36 @@ li {
     margin: 3vw;
     display: inline;
   }
+
+.mensaje {
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+    margin: 2vw;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.form-input {
+  border: 2px solid #000;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-enviar {
+  background-color: #000;
+  color: white;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #fff;
+  color: black;
+  border-color: #000;
+}
 
